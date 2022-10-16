@@ -1,0 +1,143 @@
+* { padding:0; border:0; margin:0; }
+
+body{
+   font-family: Courier;
+   color: greenyellow;
+   background: black;
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+}
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: black;
+  position:sticky;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: whitesmoke;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: greenyellow;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: gray;
+  color: white;
+}
+
+#nav2 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+#nav2 li {
+  float: left;
+}
+
+#nav2 li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+table.blogTBL {
+  max-width: auto;
+  background-color: #000000;
+  border-collapse: collapse;
+  border-width: 4px;
+  border-color: #ffcc00;
+  border-style: ridge;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+table.blogTBL td, table.blogTBL th {
+  border-width: 4px;
+  border-color: #63fa4f;
+  border-style: ridge;
+  padding: 3px;
+}
+
+table.blogTBL td {
+  width: 150px;
+}
+table.blogTBL td+td {
+  width: auto;
+}
+
+table.blogTBL thead {
+  background-color: rgb(4, 39, 6);
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: greenyellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(126, 224, 113);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.image {
+  flex-basis: 40%;
+}
+
+#post
+{
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  display:block;
+}
+
+img {
+  max-width: 100%
+}
+
+
+.image {
+  flex-basis: 70%;
+  order: 2;
+}
